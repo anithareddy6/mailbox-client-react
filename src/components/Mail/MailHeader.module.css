@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  background-color: rgb(9, 85, 126);
+}
+.header h3 {
+  margin-left: 100px;
+  color: beige;
+}
+.findText {
+  margin-left: 20px;
+  width: 200%;
+}
+.findText input {
+  width: 50%;
+  border: 1px solid gray;
+}
+.searchButton {
+  margin-top: 18px;
+}
+.userId {
+  margin-right: 5%;
+  margin-top: 15px;
+  color: bisque;
+  font-style: italic;
+}
+.logout {
+  margin-top: 18px;
+  margin-right: 5%;
+}

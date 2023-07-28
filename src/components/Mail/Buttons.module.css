@@ -1,0 +1,37 @@
+.views {
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.views div {
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+.views div :hover {
+  cursor: pointer;
+}
+.composeButton {
+  width: 70%;
+  margin-left: 15%;
+  height: 1cm;
+  margin-top: 5px;
+  color: white;
+  background-color: blue;
+  font-size: larger;
+  margin-bottom: 10px;
+}
+.unread {
+  display: flex;
+  justify-content: space-between;
+}
+.sent {
+  background-color: transparent;
+  border: none;
+}
+.inbox {
+  background-color: transparent;
+  border: none;
+}
+.sent:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  background-color: rgb(253, 251, 251);
+  border-bottom: 1px solid gray;
+  padding: 5px;
+  justify-content: space-between;
+}
+.list:hover {
+  background-color: antiquewhite;
+}
+.to {
+  width: 35%;
+  margin-left: 5px;
+}
+.subject {
+  margin-left: 10%;
+  width: 35%;
+}
+.circle {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-top: 8px;
+  background-color: blue;
+}
+.delete button {
+  background-color: red;
+  color: white;
+}
+.symbolTo {
+  display: flex;
+}
